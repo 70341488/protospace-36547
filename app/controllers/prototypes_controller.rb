@@ -32,7 +32,6 @@ def edit
 end
 end
 
-
 def update
   prototype = Prototype.find(params[:id])
   prototype.update(prototype_params)
