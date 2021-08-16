@@ -5,7 +5,11 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   
     has_many :prototypes
+<<<<<<< Updated upstream
                               has_many :comments
+=======
+     has_many :comments
+>>>>>>> Stashed changes
 
 
          validates :name, presence: true
