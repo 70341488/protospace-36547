@@ -42,6 +42,8 @@ else
 end
 end
 
+
+
 def destroy
   prototype = Prototype.find(params[:id])
   prototype.destroy
